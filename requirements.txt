@@ -1,0 +1,4 @@
+langchian-openai
+langchian
+python-dotenv
+langchian_community
