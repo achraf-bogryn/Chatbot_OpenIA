@@ -96,3 +96,46 @@ The chatbot includes customizable parameters to control how responses are genera
  └── 📂 Ollama_chatbot/          # Ollama-only chatbot app
       └── main.py                    # Streamlit app for Ollama models
 ```
+
+## 🛠️ Local Installation Guide
+
+Follow these steps to set up and run the Friendly Q&A Chatbot locally.
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/achraf-bogryn/Chatbot_OpenIA.git
+cd Chatbot_OpenIA
+
+# 2️⃣ (Optional) Create and activate a virtual environment
+python3 -m venv venv
+# On macOS / Linux
+source venv/bin/activate
+# On Windows (command prompt)
+conda activate venv/
+
+# 3️⃣ Install dependencies
+pip install -r requirements.txt
+
+# 4️⃣ Set up environment variables (OpenAI API key)
+touch .env
+# Add your OpenAI API key inside `.env` like this:
+# OPENAI_API_KEY=your_openai_api_key_here
+
+# 5️⃣ Run the application
+
+# Option A: OpenAI-based Chatbot
+cd OpenAI_chatbot
+streamlit run app.py
+
+# Option B: Ollama-based Chatbot
+cd Ollama_chatbot
+streamlit run main.py
+
+# Option C: Combined Chatbot (OpenAI + Ollama)
+python Chat.py
+
+# 🔧 Additional configuration
+# Adjust temperature and max_tokens in the app sidebar or in the code:
+# - Temperature (0.0 - 1.0) controls randomness of responses
+# - Max Tokens limits the response length
+```
