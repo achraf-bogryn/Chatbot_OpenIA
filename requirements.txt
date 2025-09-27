@@ -1,4 +1,15 @@
-langchian-openai
-langchian
+streamlit
 python-dotenv
-langchian_community
+langchain
+langchain-core
+langchain-community
+langchain-openai
+openai
+
+
+# langchain_openai
+# langchain
+# python-dotenv
+# langchain_community
+# langchain_core
+# streamlit
