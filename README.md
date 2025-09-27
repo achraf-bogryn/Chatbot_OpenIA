@@ -16,8 +16,8 @@ This project addresses these challenges by providing:
 - **Interactive and friendly chat interface**.
 
 **Illustration of the problem:**  
-![Problem Illustration Placeholder](images/problem.png)  
-*Replace this placeholder with a diagram showing the problem your chatbot solves.*
+![Problem Illustration](images/chatbot-best-practices.webp)  
+*Example showing how the chatbot helps users get answers safely and efficiently.*
 
 ---
 
