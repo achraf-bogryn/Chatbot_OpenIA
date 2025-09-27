@@ -77,3 +77,22 @@ The chatbot includes customizable parameters to control how responses are genera
 ---
 
 ## Project Structure
+
+``` bash
+📂 chatbot-project
+ ├── 📄 Chat.py                  # Combined chatbot (OpenAI + Ollama interface)
+ ├── 📄 requirements.txt         # Python dependencies
+ ├── 📄 README.md                # Project documentation
+ ├── 📄 .gitignore               # Ignored files (env, cache, etc.)
+ │
+ ├── 📂 images/                  # Screenshots & illustrations
+ │    ├── openai_chatbot.png         # Preview of chatbot with OpenAI
+ │    ├── ollama_chatbot.png         # Preview of chatbot with Ollama
+ │    └── chatbot-best-practices.webp # Problem illustration
+ │
+ ├── 📂 OpenAI_chatbot/          # OpenAI-only chatbot app
+ │    └── app.py                     # Streamlit app for OpenAI models
+ │
+ └── 📂 Ollama_chatbot/          # Ollama-only chatbot app
+      └── main.py                    # Streamlit app for Ollama models
+```
